@@ -1,0 +1,17 @@
+{
+  "version":"1.0",
+  "name": "uno",
+  "description": "UNO CARD GAME",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icon/icon-128.jpg",
+    "120": "/icon/icon-120.jpg",
+    "90": "/icon/icon-90.jpg",
+    "60": "/icon/icon-60.jpg"
+  },
+  "developer": {
+    "name": "iushaheed",
+    "url": "http://emamush.0fees.net"
+  },
+  "default_locale": "en"
+}

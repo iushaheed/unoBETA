@@ -1,0 +1,117 @@
+body{font-family:cursive;}
+
+#fullDiv{	
+	background-image: url(images/subPage.jpg);
+	
+	
+	height: 100%;
+	width: 100%;
+}
+
+#logDiv{width: 100%}
+#logoImg{width: 100%;border-color:gray;}
+
+
+
+
+#content{float: left; background-color: rgba(0,0,0,.5);height: 85%;text-align:center;width: 100%;}
+#content h2{color: red;text-align: center;}
+#content a{text-decoration: none;}
+#content p{color: white;}
+
+
+
+#pc1{
+	
+	font-size: 40px;
+	margin-left: 10%;
+	height: 5%;
+	width: 50%;
+}
+
+
+#middleDiv{
+	float: left;
+	height:40%;
+	width: 99%;
+
+}
+#socialDiv{
+	float: left;
+	width: 10%;
+}
+#tableDiv{
+	float: left;
+	margin-left: 25%;
+	padding-top: 2%;
+	height:75%;
+	width: 25%;
+	background-color: gray;
+	border-radius: 5%;
+}
+
+
+#user{
+
+	float: left;
+	padding-top: 5%;
+	background-color: rgba(0,0,0,0.35);
+	font-size: 35px;
+	text-align: center;
+	height: 40%;
+	width: 70%;
+	border-radius: 1%;
+}
+#use0{float: left; width: 20%;height: 40%;}
+#use1{float: left; width: 20%;height: 40%;}
+#use2{float: left; width: 20%;height: 40%;}
+#use3{float: left; width: 20%;height: 40%;}
+#use4{float: left; width: 20%;height: 40%;}
+#use5{float: left; width: 20%;height: 40%;}
+#use6{float: left; width: 20%;height: 40%;}
+#use7{float: left; width: 20%;height: 40%;}
+#use8{float: left; width: 20%;height: 40%;}
+#use9{float: left; width: 20%;height: 40%;}
+
+#stack{
+	float:right;
+	margin-right: 1%;
+	background-color: blue;
+
+	width: 25%;
+	height: 25%;
+}
+#stackImage{
+	height: 100%;
+	width: 100%;
+}
+#restartButton{
+	width: 60%;
+	height: 30%;
+	font-size: 10px;
+}
+#printDiv{
+	margin-top: -20%;
+	height: 25%;
+	font-size: 20px;
+
+}
+
+
+@media (max-width: 560px)
+{
+#tableDiv img,	
+#use0 img, 
+#use1 img, 
+#use2 img, 
+#use3 img, 
+#use4 img, 
+#use5 img, 
+#use6 img, 
+#use7 img, 
+#use8 img, 
+#use9 img{
+width: 30px;
+height: 50px;
+}
+}
